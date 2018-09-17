@@ -1,0 +1,50 @@
+.wrapper {
+    margin: auto;
+    width: 90%;
+    max-width: 760px;
+    margin-top: 10px;  
+}
+.energetico {
+    margin: auto;
+    width: 90%;
+    max-width: 760px;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+.relaxedwrapper {
+    margin: auto;
+    width: 90%;
+    max-width: 760px;
+}
+.funwrapper {
+    background-color: transparent;
+    margin: auto;
+    width: 90%;
+    max-width: 760px;
+    margin-top: 10px;
+}
+.corpwrapper {
+    background-color: gray;
+    box-shadow: 5px 10px;
+    opacity: 0.8;
+    margin: auto;
+    width: 90%;
+    max-width: 760px;
+    margin-top: 10px;
+}
+a {
+    padding: 10px 25px;
+    background: gray;
+    margin-top: 0px;
+    color: black;
+    padding-left: 52px;
+    width: 760px;
+    font-family: 'Lobster', cursive; 
+    font-size: 20px;
+}
+
+@media (max-width: 700px) {
+    .wrapper {
+        margin-top: 40px;
+    }
+}

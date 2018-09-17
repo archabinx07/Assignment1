@@ -1,0 +1,262 @@
+
+/*Sophiticated CSS*/
+@font-face {
+    font-family: 'Whatever Name I Want';
+    src: url('../fonts/Dancing_Script/DancingScript-Regular.ttf');
+}
+body {
+    background-color: azure;
+}
+header {
+    background-color: black;
+    height: 120px; 
+    font-size: 30px
+}
+h1 {
+    color: azure;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Lobster', cursive; 
+}
+.wrapper h2 {
+    font-family: 'Whatever Name I Want';
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.wrapper p {
+    font-size: 22px;
+    font-family: 'Whatever Name I Want';
+    color: black;
+}
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.child {
+    display: inline-block;
+  }
+
+
+
+
+
+
+
+/*Energetic CSS*/
+@font-face {
+    font-family: 'energetico';
+    src: url('../fonts/Faster_One/FasterOne-Regular.ttf');
+}
+.gradient {
+    background-image: linear-gradient(to right, red , yellow);
+}
+.energetico header {
+    background-color: transparent;
+    height: 150px; 
+    font-size: 30px;
+    margin-top: -48px;
+}
+.energetico h1 {
+    color: black;
+    font-family: 'energetico';
+    font-size: 70px;
+}
+.energetico h2{
+    font-family: 'Mogra', cursive;
+    color: black;
+    font-size: 20px;
+}
+.energetico p{
+    font-family: 'Mogra', cursive;
+    color: black;
+    font-size: 18px;
+}
+.energeticparent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.energeticchild {
+    display: inline-block;
+    overflow: hidden;
+    background: transparent;
+    font-family: 'Mogra', cursive;
+    font-size: 12px;
+    color: rgb(177, 22, 17);
+    font-weight: 900;
+  }
+
+
+
+
+
+
+/*Relaxed CSS*/
+@font-face {
+    font-family: 'relfont';
+    src: url('../fonts/Clicker_Script/ClickerScript-Regular.ttf');
+}
+.relaxedbody {
+    background-color: #cccccc;
+}
+.relaxedwrapper header {
+    background-color: transparent;
+    height: 160px; 
+    font-size: 30px;
+    border: 2px solid black;
+}
+.relaxedwrapper h1 {
+    color: black;
+    font-family: 'relfont';
+    font-size: 70px;
+    padding-top: 0;
+}
+.relaxedwrapper h2 {
+    font-family: 'Bad Script', cursive; 
+    color: black;
+    font-size: 22px;
+}
+.relaxedwrapper p {
+    font-family: 'Bad Script', cursive; 
+    color: black;
+    font-size: 20px;
+}
+.relaxedparent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+  }
+  
+.relaxedchild {
+    display: inline-block;
+    overflow: hidden;
+    background: transparent;
+    font-family: 'relfont'; 
+    font-size: 18px;
+    color: black;
+    font-weight: 900;
+  }
+
+
+
+
+
+
+
+/*Corporate CSS*/
+@font-face {
+    font-family: 'corpfont';
+    src: url('../fonts/Carter_One/CarterOne.ttf');
+}
+.bg-image {
+    background: url(../img/imgcorp.jpg);
+    background-size: cover;
+}
+.corpwrapper header {
+    background-color: rgb(126, 21, 21);
+    height: 120px; 
+    font-size: 30px
+}
+.w3-container h1 {
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Righteous', cursive;
+    font-size: 60px;
+    font-weight: 900;
+}
+.corpwrapper h2 {
+    font-family: 'corpfont';
+    font-size: 22px;
+}
+.corpwrapper p {
+    font-family: 'corpfont';
+    font-size: 16px;
+}
+.corpparent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Righteous', cursive;
+   
+  }
+  
+.corpchild {
+    display: inline-block;
+    background-color: rgb(126, 21, 21);
+    font-size: 17px;
+    font-weight: 900;
+  }
+
+
+
+
+
+/*Fun CSS*/
+@font-face {
+    font-family: 'funfont';
+    src: url('../fonts/Nosifer/Nosifer-Regular.ttf');
+}
+.grad {
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+}
+.funwrapper header {
+    background-color: transparent;
+    border-radius: 25px;
+    border: 2px solid pink;
+    height: 150px; 
+    width: 100%;
+    font-size: 30px;
+    margin-top: 0;
+}
+.funwrapper h1 {
+    color: blue;
+    font-family: 'funfont';
+    font-size: 70px;
+    margin-top: -20px;
+}
+.funwrapper h2, p {
+    font-family: 'Griffy', cursive;
+    color: black;
+    font-size: 20px;
+}
+.u {
+    color: red;
+}
+.n {
+    color: yellow;
+}
+.funparent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: 2px solid pink;
+}
+.funchild {
+    display: inline-block;
+    background: transparent;
+    font-family: 'funfont'; 
+    font-size: 12px;
+    color: black;
+    font-weight: 900;
+    padding-right: 2px;
+}
+.soph {
+    color: rgb(126, 21, 21);
+}
+.energ {
+    color:rgb(8, 75, 17);
+}
+.rel {
+    color:rgb(90, 15, 90);
+}
+.corp {
+    color:orange;
+}
+
